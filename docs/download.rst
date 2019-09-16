@@ -63,33 +63,41 @@ Image export using omero-downloader (demo only)
 
       i.  Note: Copy the following command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands
 
-      ii. $ ./download.sh -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Image:<image ID>
+      ::
+
+           $ ./download.sh -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Image:<image ID>
 
    b. On Windows
 
       iii. Note: Copy the following command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands
 
-      iv.  $ download.bat -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Image:<image ID>
+      ::
+
+            $ download.bat -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Image:<image ID>
 
 3. To download all images in a Dataset, run
 
    c. Note: Copy the following command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands\ into your Terminal.
 
-   d. $ ./download.sh -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Dataset:<Dataset ID>
+   ::
 
-   e. Note that you will be able to deduce what tags and annotations the downloaded images were annotated with.
+       $ ./download.sh -b /tmp/repo -s <server host> -u <user name> -w <password> -f binary Dataset:<Dataset ID>
 
-   f. Go to OMERO.web and Tag several images from two datasets with a tag “your-name”. Then, go back to the command line and run
+   d. Note that you will be able to deduce what tags and annotations the downloaded images were annotated with.
+
+   e. Go to OMERO.web and Tag several images from two datasets with a tag “your-name”. Then, go back to the command line and run
 
       v.   Note: Copy the following command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands\ into your Terminal.
 
-      vi.  $ ./download.sh -b /tmp/repo -s <your server address> -u <user name> -w <password> -f ome-xml Dataset:$ID2,$ID1
+      ::
+
+         $ ./download.sh -b /tmp/repo -s <server host> -u <user name> -w <password> -f ome-xml Dataset:$ID2,$ID1
 
       vii. This will download the xml metadata for images in those two datasets (Note: we could download all the images as well, but we can do it at any later point, as downloader “remembers” what is downloaded already and does not re-download it twice.)
 
-   g. Note: Copy the grep command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands\ into your Terminal.
+   f. Note: Copy the grep command from \ https://raw.githubusercontent.com/ome/training-scripts/master/practical/bash/downloader-commands\ into your Terminal.
 
-   h. This will find the IDs of all the images from the two datasets tagged with “your-name” tag.
+   g. This will find the IDs of all the images from the two datasets tagged with “your-name” tag.
 
 .. |image1| image:: images/download1.png
    :width: 0.25in
