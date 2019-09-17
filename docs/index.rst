@@ -1,9 +1,9 @@
-Welcome to guide template's documentation!
-==========================================
+Download data
+=============
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    download
