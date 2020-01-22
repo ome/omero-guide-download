@@ -26,7 +26,7 @@ We will show:
 **Setup**
 ---------
 
--  omero-downloader was installed by downloading and unzipping of the release artifact \ `https://github.com/ome/omero-downloader/releases/download/latest/ <https://github.com/ome/omero-downloader/releases/download/v0.1.5/OMERO.downloader-0.1.5-release.zip>`__
+-  omero-downloader was installed by downloading and unzipping of the release artifact \ `https://github.com/ome/omero-downloader/releases/latest/ <https://github.com/ome/omero-downloader/releases/download/v0.2.1/OMERO.downloader-0.2.1-release.zip>`__
 
 -  omero-downloader works on Mac, Windows and Linux
 
