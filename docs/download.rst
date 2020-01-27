@@ -1,7 +1,7 @@
 Download and export images
 ==========================
 
-We will show how the possibilities of getting images from OMERO. These can be described as "export" (new image, usually a jpeg, tiff or png is
+We will show the possibilities of getting images from OMERO. These can be described as "export" (new image, usually a jpeg, tiff or png is
 created from the original image saved in OMERO) or "download" (the original image, in the original format is downloaded from OMERO).
 
 **Description**
@@ -28,7 +28,7 @@ We will show:
 
 -  omero-downloader was installed by downloading and unzipping of the release artifact \ `https://github.com/ome/omero-downloader/releases/latest/ <https://github.com/ome/omero-downloader/releases/download/v0.2.1/OMERO.downloader-0.2.1-release.zip>`__
 
--  omero-downloader works on Mac, Windows and Linux
+-  omero-downloader works on Mac, Windows and Linux.
 
 **Resources**
 -------------
