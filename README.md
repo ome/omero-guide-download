@@ -1,4 +1,13 @@
-# This is a template useful to create guides
+# User guide on how to download/export data stored in OMERO
+[![Documentation Status](https://readthedocs.org/projects/omero-guide-download/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/download/docs/index.html)
+
+
+[![Actions Status](https://github.com/ome/omero-guide-download/workflows/sphinx/badge.svg)](https://github.com/ome/omero-guide-download/actions)
+
+The documentation is deployed at [How to Download data](https://omero-guides.readthedocs.io/en/latest/download/docs/index.html).
+
+This guide demonstrates how to download/export data stored in OMERO.
+
 
 This a Sphinx based documentation. 
 If you are unfamiliar with Sphinx, we recommend that you first read 
